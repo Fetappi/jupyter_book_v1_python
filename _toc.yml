@@ -1,0 +1,12 @@
+format: jb-book
+root: lectures/main/index.md
+parts:
+  - caption: Домашняя работа 2
+    chapters:
+      - file: lectures/2/HW
+  - caption: Лекция 4
+    chapters:
+      - file: lectures/4/table_hw
+      - file: lectures/4/hw
+
+
