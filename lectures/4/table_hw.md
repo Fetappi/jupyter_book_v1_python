@@ -1,6 +1,5 @@
 # Таблица с заданиями
 
-**Задание:**
 **Общие требования ко всем заданиям:**
 * Вам необходимо реализовать работу списка со словарем.
 * <span style="color: red">При реализации программы запрещено пользоваться классами!!!</span>
@@ -14,35 +13,35 @@
 
 | № задания | Название | Краткое описание | Названия функций |
 |--------|----------|----------------|----------------|
+| 0 | [Система учёта оценок студентов ](HW3_3)| Простая система для учёта и анализа оценок студентов | `add_grade()`, `average_grade()`, `top_students()`, `failing_students()` |
 | 1 | [Учёт книг в домашней библиотеке](HW3_1) | Система учёта книг с возможностью поиска и анализа данных | `add_book()`, `mark_as_read()`, `get_unread_books()`, `find_books_by_author()` |
 | 2 | [Планирование бюджета на месяц](HW3_2) | Простой планировщик бюджета с категоризацией расходов | `add_expense()`, `total_expenses()`, `avg_expense_per_category()`, `most_expensive_category()` |
-| 3 | [Система учёта оценок студентов ](HW3_3)| Простая система для учёта и анализа оценок студентов | `add_grade()`, `average_grade()`, `top_students()`, `failing_students()` |
-| 4 | [Трекер привычек](HW3_4) | Учёт выполнения ежедневных привычек: список привычек и журнал дат их выполнения | `add_habit()`, `complete_habit()`, `habit_progress()`, `delete_habit()` |
-| 5 | [Список фильмов для просмотра](HW3_5) | Управление списком фильмов: добавление, отметка о просмотре, фильтрация по жанру | `add_movie()`, `mark_watched()`, `filter_by_genre()`, `remove_movie()` |
-| 6 | [Планирование тренировок](HW3_6) | Учёт видов тренировок и их длительности: запись, подсчёт общего времени и средних значений | `log_workout()`, `total_duration_by_type()`, `last_workouts()`, `delete_workout_by_date()` |
-| 7 | [Учёт расходов в поездке](HW3_7) | Фиксация расходов по категориям во время путешествия | `add_trip_expense()`, `total_by_city()`, `most_expensive_day()`, `clear_city_expenses()` |
-| 8 | [Дневник питания](HW3_8) | Учёт калорийности продуктов: добавление продуктов и их калорийности, расчёт калорий за день | `add_food()`, `daily_calories()`, `top_calorie_items()`, `remove_meal_by_date_and_meal()` |
-| 9 | [Учёт задач проекта](HW3_9) | Управление задачами с приоритетами и статусами | `add_task()`, `update_status()`, `overdue_tasks()`, `delete_completed_tasks()` |
-| 10 | [Каталог книг в библиотеке](HW3_10) | Учёт книг с информацией об авторе и годе издания | `add_book_to_library()`, `borrow_book()`, `oldest_books()`, `remove_missing_books()` |
-| 11 | [Учёт сотрудников компании](HW3_11) | Управление данными о сотрудниках: должности, зарплаты, отделы | `add_employee()`, `raise_salary()`, `avg_salary_by_department()`, `fire_employee()` |
-| 12 | [Каталог автомобилей](HW3_12) | Учёт автомобилей с характеристиками: марка, модель, год, цена | `add_car()`, `apply_discount()`, `find_cheapest_by_year()`, `remove_discontinued()` |
-| 13 | [Журнал погоды](HW3_13) | Фиксация температуры, осадков и ветра по датам | `record_weather()`, `avg_temperature()`, `rainy_days()`, `delete_old_records()` |
-| 14 | [Список рецептов](HW3_14) | Хранение рецептов с ингредиентами и временем приготовления | `add_recipe()`, `update_difficulty()`, `quick_recipes()`, `remove_recipe()` |
-| 15 | [Учёт задач на день](HW3_15) | Управление ежедневными задачами с приоритетами и категориями | `add_task()`, `complete_task()`, `urgent_tasks()`, `clear_completed()` |
-| 16 | [Каталог музыки](HW3_16) | Учёт музыкальных треков с информацией об исполнителе и жанре | `add_track()`, `change_genre()`, `longest_tracks()`, `remove_artist_tracks()` |
-| 17 | [Журнал тренировок](HW3_17) | Фиксация упражнений, повторений, подходов и веса | `log_workout()`, `total_reps_by_exercise()`, `best_weight_by_exercise()`, `delete_workout_by_date()` |
-| 18 | [Учёт подписок](HW3_18) | Ведение списка подписок и их стоимости с датами продления | `add_subscription()`, `renew_subscription()`, `monthly_cost()`, `cancel_subscription()` |
-| 19 | [Список мест для посещения](HW3_19) | Ведение списка достопримечательностей с информацией о городе и стране | `add_place()`, `mark_visited()`, `places_by_country()`, `remove_place()` |
-| 20 | [Учёт расходов на транспорт](HW3_20) | Фиксация затрат на разные виды транспорта | `add_transport_expense()`, `total_by_type()`, `most_expensive_trip()`, `delete_expenses_by_date()` |
-| 21 | [Список целей на год](HW3_21) | Постановка и отслеживание целей с прогрессом и дедлайнами | `add_goal()`, `update_progress()`, `achieved_goals()`, `delete_overdue_goals()` |
-| 22 | [Каталог фильмов](HW3_22) | Управление коллекцией фильмов с деталями о режиссёре, годе и рейтинге | `add_movie()`, `update_rating()`, `top_rated_movies()`, `remove_movie_by_year()` |
-| 23 | [Учёт домашних животных](HW3_23) | Учёт питомцев с информацией о виде, возрасте и владельце | `add_pet()`, `update_age()`, `pets_by_owner()`, `remove_pet()` |
-| 24 | [Каталог растений](HW3_24) | Учёт комнатных и садовых растений с условиями ухода | `add_plant()`, `change_watering_freq()`, `shade_loving_plants()`, `remove_plant()` |
-| 25 | [Учёт оборудования в лаборатории](HW3_25) | Фиксация оборудования, его статуса и даты последней калибровки | `add_equipment()`, `mark_maintenance()`, `overdue_calibrations()`, `retire_equipment()` |
-| 26 | [Список контактов](HW3_26)| Управление контактами с категоризацией и контактной информацией | `add_contact()`, `update_phone()`, `contacts_by_category()`, `delete_contact()` |
-| 27 | [Журнал успеваемости студентов](HW3_27) | Учёт оценок студентов по предметам и датам | `add_grade()`, `avg_grade_by_student()`, `failing_students()`, `clear_old_grades()` |
-| 28 | [Каталог книг в библиотеке (расширенный)](HW3_28) | Учёт книг с возможностью отслеживания выдачи и потери | `add_book()`, `borrow_book()`, `books_by_author()`, `remove_lost_books()` |
-| 29 | [Учёт заказов в кафе](HW3_29) | Управление заказами с номерами столиков, позициями и статусами | `add_order()`, `complete_order()`, `revenue_today()`, `cancel_order()` |
-| 30 | [Список задач для волонтёров](HW3_30) | Распределение задач между волонтёрами с датами и статусом выполнения | `assign_task()`, `mark_completed()`, `tasks_by_volunteer()`, `remove_expired_tasks()` |
-| 31 | [Каталог фильмов для стриминга](HW3_31) | Учёт фильмов с жанрами, длительностью и количеством просмотров | `add_movie_to_catalog()`, `increment_watches()`, `most_watched_movies()`, `remove_movie()` |
-| 32 | [Учёт инвентаря спортивного зала](HW3_32) | Фиксация инвентаря с количеством, состоянием и расположением | `add_item()`, `update_quantity()`, `low_stock_items()`, `dispose_item()` |
+| 3 | [Трекер привычек](HW3_4) | Учёт выполнения ежедневных привычек: список привычек и журнал дат их выполнения | `add_habit()`, `complete_habit()`, `habit_progress()`, `delete_habit()` |
+| 4 | [Список фильмов для просмотра](HW3_5) | Управление списком фильмов: добавление, отметка о просмотре, фильтрация по жанру | `add_movie()`, `mark_watched()`, `filter_by_genre()`, `remove_movie()` |
+| 5 | [Планирование тренировок](HW3_6) | Учёт видов тренировок и их длительности: запись, подсчёт общего времени и средних значений | `log_workout()`, `total_duration_by_type()`, `last_workouts()`, `delete_workout_by_date()` |
+| 6 | [Учёт расходов в поездке](HW3_7) | Фиксация расходов по категориям во время путешествия | `add_trip_expense()`, `total_by_city()`, `most_expensive_day()`, `clear_city_expenses()` |
+| 7 | [Дневник питания](HW3_8) | Учёт калорийности продуктов: добавление продуктов и их калорийности, расчёт калорий за день | `add_food()`, `daily_calories()`, `top_calorie_items()`, `remove_meal_by_date_and_meal()` |
+| 8 | [Учёт задач проекта](HW3_9) | Управление задачами с приоритетами и статусами | `add_task()`, `update_status()`, `overdue_tasks()`, `delete_completed_tasks()` |
+| 9 | [Каталог книг в библиотеке](HW3_10) | Учёт книг с информацией об авторе и годе издания | `add_book_to_library()`, `borrow_book()`, `oldest_books()`, `remove_missing_books()` |
+| 10 | [Учёт сотрудников компании](HW3_11) | Управление данными о сотрудниках: должности, зарплаты, отделы | `add_employee()`, `raise_salary()`, `avg_salary_by_department()`, `fire_employee()` |
+| 11 | [Каталог автомобилей](HW3_12) | Учёт автомобилей с характеристиками: марка, модель, год, цена | `add_car()`, `apply_discount()`, `find_cheapest_by_year()`, `remove_discontinued()` |
+| 12 | [Журнал погоды](HW3_13) | Фиксация температуры, осадков и ветра по датам | `record_weather()`, `avg_temperature()`, `rainy_days()`, `delete_old_records()` |
+| 13 | [Список рецептов](HW3_14) | Хранение рецептов с ингредиентами и временем приготовления | `add_recipe()`, `update_difficulty()`, `quick_recipes()`, `remove_recipe()` |
+| 14 | [Учёт задач на день](HW3_15) | Управление ежедневными задачами с приоритетами и категориями | `add_task()`, `complete_task()`, `urgent_tasks()`, `clear_completed()` |
+| 15 | [Каталог музыки](HW3_16) | Учёт музыкальных треков с информацией об исполнителе и жанре | `add_track()`, `change_genre()`, `longest_tracks()`, `remove_artist_tracks()` |
+| 16 | [Журнал тренировок](HW3_17) | Фиксация упражнений, повторений, подходов и веса | `log_workout()`, `total_reps_by_exercise()`, `best_weight_by_exercise()`, `delete_workout_by_date()` |
+| 17 | [Учёт подписок](HW3_18) | Ведение списка подписок и их стоимости с датами продления | `add_subscription()`, `renew_subscription()`, `monthly_cost()`, `cancel_subscription()` |
+| 18 | [Список мест для посещения](HW3_19) | Ведение списка достопримечательностей с информацией о городе и стране | `add_place()`, `mark_visited()`, `places_by_country()`, `remove_place()` |
+| 19 | [Учёт расходов на транспорт](HW3_20) | Фиксация затрат на разные виды транспорта | `add_transport_expense()`, `total_by_type()`, `most_expensive_trip()`, `delete_expenses_by_date()` |
+| 20 | [Список целей на год](HW3_21) | Постановка и отслеживание целей с прогрессом и дедлайнами | `add_goal()`, `update_progress()`, `achieved_goals()`, `delete_overdue_goals()` |
+| 21 | [Каталог фильмов](HW3_22) | Управление коллекцией фильмов с деталями о режиссёре, годе и рейтинге | `add_movie()`, `update_rating()`, `top_rated_movies()`, `remove_movie_by_year()` |
+| 22 | [Учёт домашних животных](HW3_23) | Учёт питомцев с информацией о виде, возрасте и владельце | `add_pet()`, `update_age()`, `pets_by_owner()`, `remove_pet()` |
+| 23 | [Каталог растений](HW3_24) | Учёт комнатных и садовых растений с условиями ухода | `add_plant()`, `change_watering_freq()`, `shade_loving_plants()`, `remove_plant()` |
+| 24 | [Учёт оборудования в лаборатории](HW3_25) | Фиксация оборудования, его статуса и даты последней калибровки | `add_equipment()`, `mark_maintenance()`, `overdue_calibrations()`, `retire_equipment()` |
+| 25 | [Список контактов](HW3_26)| Управление контактами с категоризацией и контактной информацией | `add_contact()`, `update_phone()`, `contacts_by_category()`, `delete_contact()` |
+| 26 | [Журнал успеваемости студентов](HW3_27) | Учёт оценок студентов по предметам и датам | `add_grade()`, `avg_grade_by_student()`, `failing_students()`, `clear_old_grades()` |
+| 27 | [Каталог книг в библиотеке (расширенный)](HW3_28) | Учёт книг с возможностью отслеживания выдачи и потери | `add_book()`, `borrow_book()`, `books_by_author()`, `remove_lost_books()` |
+| 28 | [Учёт заказов в кафе](HW3_29) | Управление заказами с номерами столиков, позициями и статусами | `add_order()`, `complete_order()`, `revenue_today()`, `cancel_order()` |
+| 29 | [Список задач для волонтёров](HW3_30) | Распределение задач между волонтёрами с датами и статусом выполнения | `assign_task()`, `mark_completed()`, `tasks_by_volunteer()`, `remove_expired_tasks()` |
+| 30 | [Каталог фильмов для стриминга](HW3_31) | Учёт фильмов с жанрами, длительностью и количеством просмотров | `add_movie_to_catalog()`, `increment_watches()`, `most_watched_movies()`, `remove_movie()` |
+| 31 | [Учёт инвентаря спортивного зала](HW3_32) | Фиксация инвентаря с количеством, состоянием и расположением | `add_item()`, `update_quantity()`, `low_stock_items()`, `dispose_item()` |
