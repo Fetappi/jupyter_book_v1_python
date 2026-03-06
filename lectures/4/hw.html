@@ -1,0 +1,1162 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Домашняя работа 3 &#8212; Практикум по компьютерным технологиям</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=9c3e77be" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css?v=8cd3d715" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="../../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js?v=1ae7504c"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'lectures/4/hw';</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="icon" href="../../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="prev" title="Таблица с заданиями" href="table_hw.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="../main/index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/logo.png" class="logo__image only-light" alt="Практикум по компьютерным технологиям - Home"/>
+    <script>document.write(`<img src="../../_static/logo.png" class="logo__image only-dark" alt="Практикум по компьютерным технологиям - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../main/index.html">
+                    Язык программирования Python
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Домашняя работа 2</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../2/HW.html">Домашнее задание №2</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Лекция 4</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="table_hw.html">Таблица с заданиями</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Домашняя работа 3</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/Fetappi/CPP_lectures" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/Fetappi/CPP_lectures/edit/main/lectures/4/hw.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/Fetappi/CPP_lectures/issues/new?title=Issue%20on%20page%20%2Flectures/4/hw.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/lectures/4/hw.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Домашняя работа 3</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-3">Задание 0. Система учёта оценок студентов</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-1">Задание 1. Учёт книг в домашней библиотеке</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-2">Задание 2. Планирование бюджета на месяц</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-4">Задание 3. Трекер привычек</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-5">Задание 4. Список фильмов для просмотра</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-6">Задание 5. Планирование тренировок</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-7">Задание 6. Учёт расходов в поездке</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-8">Задание 7. Дневник питания</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-9">Задание 8. Учёт задач проекта</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-10">Задание 9. Каталог книг в библиотеке</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-11">Задание 10. Учёт сотрудников компании</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-12">Задание 11. Каталог автомобилей</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-13">Задание 12. Журнал погоды</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-14">Задание 13. Список рецептов</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-15">Задание 14. Учёт задач на день</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-16">Задание 15. Каталог музыки</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-17">Задание 16. Журнал тренировок</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-18">Задание 17. Учёт подписок</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-19">Задание 18. Список мест для посещения</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-20">Задание 19. Учёт расходов на транспорт</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-21">Задание 20. Список целей на год</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-22">Задание 21. Каталог фильмов</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-23">Задание 22. Учёт домашних животных</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-24">Задание 23. Каталог растений</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-25">Задание 24. Учёт оборудования в лаборатории</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-26">Задание 25. Список контактов</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-27">Задание 26. Журнал успеваемости студентов</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-28">Задание 27. Каталог книг в библиотеке</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-29">Задание 28. Учёт заказов в кафе</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-30">Задание 29. Список задач для волонтёров</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-31">Задание 30. Каталог фильмов для стриминга</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-32">Задание 31. Учёт инвентаря спортивного зала</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>Домашняя работа 3<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
+<section id="hw3-3">
+<span id="id2"></span><h2>Задание 0. Система учёта оценок студентов<a class="headerlink" href="#hw3-3" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">students</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Анна&#39;</span><span class="p">,</span> <span class="s1">&#39;grades&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="s1">&#39;group&#39;</span><span class="p">:</span> <span class="s1">&#39;ФИЗ-101&#39;</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_student(name,</span> <span class="pre">group)</span></code> — добавляет нового студента (список оценок пустой).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">add_grade(name,</span> <span class="pre">grade)</span></code> — добавляет оценку студенту по имени.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">average_grade_by_group(group)</span></code> — возвращает средний балл по группе.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">remove_student(name)</span></code> — удаляет студента из списка по имени.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-1">
+<span id="id3"></span><h2>Задание 1. Учёт книг в домашней библиотеке<a class="headerlink" href="#hw3-1" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">books</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;title&#39;</span><span class="p">:</span> <span class="s1">&#39;Война и мир&#39;</span><span class="p">,</span> <span class="s1">&#39;author&#39;</span><span class="p">:</span> <span class="s1">&#39;Л.Н. Толстой&#39;</span><span class="p">,</span> <span class="s1">&#39;year&#39;</span><span class="p">:</span> <span class="mi">1869</span><span class="p">,</span> <span class="s1">&#39;read&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_book(title,</span> <span class="pre">author,</span> <span class="pre">year)</span></code> — добавляет новую книгу в список (по умолчанию <code class="docutils literal notranslate"><span class="pre">read=False</span></code>).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mark_as_read(title)</span></code> — меняет статус книги на «прочитана» (<code class="docutils literal notranslate"><span class="pre">read=True</span></code>).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">get_unread_books()</span></code> — возвращает список названий непрочитанных книг.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">remove_book(title)</span></code> — удаляет книгу из списка по названию.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-2">
+<span id="id4"></span><h2>Задание 2. Планирование бюджета на месяц<a class="headerlink" href="#hw3-2" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">expenses</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;category&#39;</span><span class="p">:</span> <span class="s1">&#39;продукты&#39;</span><span class="p">,</span> <span class="s1">&#39;amount&#39;</span><span class="p">:</span> <span class="mi">1500</span><span class="p">,</span> <span class="s1">&#39;date&#39;</span><span class="p">:</span> <span class="s1">&#39;2023-10-01&#39;</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_expense(category,</span> <span class="pre">amount,</span> <span class="pre">date)</span></code> — добавляет новый расход в список.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">total_by_category(category)</span></code> — возвращает общую сумму расходов по категории.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">filter_by_date(start_date,</span> <span class="pre">end_date)</span></code> — возвращает список расходов за указанный период.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">delete_expense_by_id(index)</span></code> — удаляет расход по его индексу в списке.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-4">
+<span id="id5"></span><h2>Задание 3. Трекер привычек<a class="headerlink" href="#hw3-4" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">habits</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;зарядка&#39;</span><span class="p">,</span> <span class="s1">&#39;frequency&#39;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> <span class="s1">&#39;completed_days&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;2023-10-01&#39;</span><span class="p">,</span> <span class="s1">&#39;2023-10-02&#39;</span><span class="p">]},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_habit(name,</span> <span class="pre">frequency)</span></code> — добавляет привычку (сколько дней в неделю планируется выполнять).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">complete_habit(name,</span> <span class="pre">date)</span></code> — добавляет дату в <code class="docutils literal notranslate"><span class="pre">completed_days</span></code> для привычки.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">habit_progress()</span></code> — возвращает словарь <code class="docutils literal notranslate"><span class="pre">{название:</span> <span class="pre">процент</span> <span class="pre">выполнения}</span></code> (сколько дней выполнено / сколько запланировано).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">delete_habit(name)</span></code> — удаляет привычку по названию.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-5">
+<span id="id6"></span><h2>Задание 4. Список фильмов для просмотра<a class="headerlink" href="#hw3-5" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">movies</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;title&#39;</span><span class="p">:</span> <span class="s1">&#39;Интерстеллар&#39;</span><span class="p">,</span> <span class="s1">&#39;year&#39;</span><span class="p">:</span> <span class="mi">2014</span><span class="p">,</span> <span class="s1">&#39;genre&#39;</span><span class="p">:</span> <span class="s1">&#39;фантастика&#39;</span><span class="p">,</span> <span class="s1">&#39;watched&#39;</span><span class="p">:</span> <span class="kc">False</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_movie(title,</span> <span class="pre">year,</span> <span class="pre">genre)</span></code> — добавляет фильм (по умолчанию <code class="docutils literal notranslate"><span class="pre">watched=False</span></code>).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mark_watched(title)</span></code> — меняет <code class="docutils literal notranslate"><span class="pre">watched</span></code> на <code class="docutils literal notranslate"><span class="pre">True</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">filter_by_genre(genre)</span></code> — возвращает список названий фильмов заданного жанра.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">remove_movie(title)</span></code> — удаляет фильм по названию.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-6">
+<span id="id7"></span><h2>Задание 5. Планирование тренировок<a class="headerlink" href="#hw3-6" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">workouts</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;бег&#39;</span><span class="p">,</span> <span class="s1">&#39;duration&#39;</span><span class="p">:</span> <span class="mi">30</span><span class="p">,</span> <span class="s1">&#39;date&#39;</span><span class="p">:</span> <span class="s1">&#39;2023-10-01&#39;</span><span class="p">,</span> <span class="s1">&#39;intensity&#39;</span><span class="p">:</span> <span class="s1">&#39;средняя&#39;</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_workout(type,</span> <span class="pre">duration,</span> <span class="pre">date,</span> <span class="pre">intensity)</span></code> — добавляет тренировку.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">total_duration_by_type(type)</span></code> — возвращает суммарную длительность тренировок типа.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">last_workouts(n)</span></code> — возвращает последние <code class="docutils literal notranslate"><span class="pre">n</span></code> тренировок (последние элементы списка).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">delete_workout_by_date(date)</span></code> — удаляет все тренировки за указанную дату.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-7">
+<span id="id8"></span><h2>Задание 6. Учёт расходов в поездке<a class="headerlink" href="#hw3-7" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">trip_expenses</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;category&#39;</span><span class="p">:</span> <span class="s1">&#39;жильё&#39;</span><span class="p">,</span> <span class="s1">&#39;amount&#39;</span><span class="p">:</span> <span class="mi">3000</span><span class="p">,</span> <span class="s1">&#39;city&#39;</span><span class="p">:</span> <span class="s1">&#39;Москва&#39;</span><span class="p">,</span> <span class="s1">&#39;date&#39;</span><span class="p">:</span> <span class="s1">&#39;2023-10-01&#39;</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_trip_expense(category,</span> <span class="pre">amount,</span> <span class="pre">city,</span> <span class="pre">date)</span></code> — добавляет расход.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">total_by_city(city)</span></code> — возвращает общие расходы в городе.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">most_expensive_day()</span></code> — возвращает дату и сумму самого дорогого дня поездки.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">clear_city_expenses(city)</span></code> — удаляет все расходы по указанному городу.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-8">
+<span id="id9"></span><h2>Задание 7. Дневник питания<a class="headerlink" href="#hw3-8" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">food_log</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;item&#39;</span><span class="p">:</span> <span class="s1">&#39;яблоко&#39;</span><span class="p">,</span> <span class="s1">&#39;calories&#39;</span><span class="p">:</span> <span class="mi">95</span><span class="p">,</span> <span class="s1">&#39;date&#39;</span><span class="p">:</span> <span class="s1">&#39;2023-10-01&#39;</span><span class="p">,</span> <span class="s1">&#39;meal&#39;</span><span class="p">:</span> <span class="s1">&#39;перекус&#39;</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_food(item,</span> <span class="pre">calories,</span> <span class="pre">date,</span> <span class="pre">meal)</span></code> — добавляет продукт в дневник.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">daily_calories(date)</span></code> — считает калории за день.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">top_calorie_items(n)</span></code> — возвращает топ‑<code class="docutils literal notranslate"><span class="pre">n</span></code> самых калорийных продуктов.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">remove_meal_by_date_and_meal(date,</span> <span class="pre">meal)</span></code> — удаляет приём пищи по дате и типу (завтрак, обед и т. д.).</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-9">
+<span id="id10"></span><h2>Задание 8. Учёт задач проекта<a class="headerlink" href="#hw3-9" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">tasks</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;написать код&#39;</span><span class="p">,</span> <span class="s1">&#39;priority&#39;</span><span class="p">:</span> <span class="s1">&#39;высокий&#39;</span><span class="p">,</span> <span class="s1">&#39;status&#39;</span><span class="p">:</span> <span class="s1">&#39;в работе&#39;</span><span class="p">,</span> <span class="s1">&#39;deadline&#39;</span><span class="p">:</span> <span class="s1">&#39;2023-10-15&#39;</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_task(name,</span> <span class="pre">priority,</span> <span class="pre">deadline)</span></code> — добавляет задачу (по умолчанию <code class="docutils literal notranslate"><span class="pre">status='планируется'</span></code>).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">update_status(name,</span> <span class="pre">status)</span></code> — меняет статус задачи.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">overdue_tasks()</span></code> — возвращает список задач с просроченным дедлайном.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">delete_completed_tasks()</span></code> — удаляет все задачи со статусом <code class="docutils literal notranslate"><span class="pre">status='завершена'</span></code>.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-10">
+<span id="id11"></span><h2>Задание 9. Каталог книг в библиотеке<a class="headerlink" href="#hw3-10" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">library</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;title&#39;</span><span class="p">:</span> <span class="s1">&#39;Мастер и Маргарита&#39;</span><span class="p">,</span> <span class="s1">&#39;author&#39;</span><span class="p">:</span> <span class="s1">&#39;М.А. Булгаков&#39;</span><span class="p">,</span> <span class="s1">&#39;year&#39;</span><span class="p">:</span> <span class="mi">1966</span><span class="p">,</span> <span class="s1">&#39;available&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_book_to_library(title,</span> <span class="pre">author,</span> <span class="pre">year)</span></code> — добавляет книгу (по умолчанию <code class="docutils literal notranslate"><span class="pre">available=True</span></code>).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">borrow_book(title)</span></code> — меняет <code class="docutils literal notranslate"><span class="pre">available</span></code> на <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">oldest_books(n)</span></code> — возвращает топ‑<code class="docutils literal notranslate"><span class="pre">n</span></code> самых старых книг.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">remove_missing_books()</span></code> — удаляет книги, которых нет в наличии более года (можно добавить поле <code class="docutils literal notranslate"><span class="pre">borrow_date</span></code> для усложнения).</p></li>
+</ol>
+</section>
+<section id="hw3-11">
+<span id="id12"></span><h2>Задание 10. Учёт сотрудников компании<a class="headerlink" href="#hw3-11" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">employees</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Иван Петров&#39;</span><span class="p">,</span> <span class="s1">&#39;position&#39;</span><span class="p">:</span> <span class="s1">&#39;разработчик&#39;</span><span class="p">,</span> <span class="s1">&#39;salary&#39;</span><span class="p">:</span> <span class="mi">80000</span><span class="p">,</span> <span class="s1">&#39;department&#39;</span><span class="p">:</span> <span class="s1">&#39;IT&#39;</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_employee(name,</span> <span class="pre">position,</span> <span class="pre">salary,</span> <span class="pre">department)</span></code> — добавляет нового сотрудника.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">raise_salary(name,</span> <span class="pre">percent)</span></code> — увеличивает зарплату сотрудника на указанный процент.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">avg_salary_by_department(department)</span></code> — возвращает среднюю зарплату по отделу.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">fire_employee(name)</span></code> — удаляет сотрудника из списка по имени.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-12">
+<span id="id13"></span><h2>Задание 11. Каталог автомобилей<a class="headerlink" href="#hw3-12" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cars</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;brand&#39;</span><span class="p">:</span> <span class="s1">&#39;Toyota&#39;</span><span class="p">,</span> <span class="s1">&#39;model&#39;</span><span class="p">:</span> <span class="s1">&#39;Camry&#39;</span><span class="p">,</span> <span class="s1">&#39;year&#39;</span><span class="p">:</span> <span class="mi">2020</span><span class="p">,</span> <span class="s1">&#39;price&#39;</span><span class="p">:</span> <span class="mi">2500000</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_car(brand,</span> <span class="pre">model,</span> <span class="pre">year,</span> <span class="pre">price)</span></code> — добавляет автомобиль в каталог.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">apply_discount(brand,</span> <span class="pre">percent)</span></code> — применяет скидку к цене всех автомобилей указанной марки.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">find_cheapest_by_year(year)</span></code> — возвращает самый дешёвый автомобиль заданного года выпуска.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">remove_discontinued(brand,</span> <span class="pre">model)</span></code> — удаляет автомобиль по марке и модели.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-13">
+<span id="id14"></span><h2>Задание 12. Журнал погоды<a class="headerlink" href="#hw3-13" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">weather_log</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;date&#39;</span><span class="p">:</span> <span class="s1">&#39;2023-10-01&#39;</span><span class="p">,</span> <span class="s1">&#39;temp&#39;</span><span class="p">:</span> <span class="mi">15</span><span class="p">,</span> <span class="s1">&#39;rainfall&#39;</span><span class="p">:</span> <span class="mf">0.5</span><span class="p">,</span> <span class="s1">&#39;wind_speed&#39;</span><span class="p">:</span> <span class="mi">3</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">record_weather(date,</span> <span class="pre">temp,</span> <span class="pre">rainfall,</span> <span class="pre">wind_speed)</span></code> — записывает данные о погоде за день.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">avg_temperature(start_date,</span> <span class="pre">end_date)</span></code> — рассчитывает среднюю температуру за период.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rainy_days(threshold)</span></code> — возвращает список дат, когда осадков было больше указанного порога.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">delete_old_records(days)</span></code> — удаляет записи старше указанного количества дней.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-14">
+<span id="id15"></span><h2>Задание 13. Список рецептов<a class="headerlink" href="#hw3-14" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">recipes</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Борщ&#39;</span><span class="p">,</span> <span class="s1">&#39;ingredients&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;свёкла&#39;</span><span class="p">,</span> <span class="s1">&#39;картофель&#39;</span><span class="p">],</span> <span class="s1">&#39;time&#39;</span><span class="p">:</span> <span class="mi">60</span><span class="p">,</span> <span class="s1">&#39;difficulty&#39;</span><span class="p">:</span> <span class="s1">&#39;средняя&#39;</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_recipe(name,</span> <span class="pre">ingredients,</span> <span class="pre">time,</span> <span class="pre">difficulty)</span></code> — добавляет новый рецепт.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">update_difficulty(name,</span> <span class="pre">new_difficulty)</span></code> — меняет уровень сложности рецепта.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">quick_recipes(max_time)</span></code> — возвращает рецепты, готовящиеся не дольше указанного времени.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">remove_recipe(name)</span></code> — удаляет рецепт по названию.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-15">
+<span id="id16"></span><h2>Задание 14. Учёт задач на день<a class="headerlink" href="#hw3-15" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">tasks</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;title&#39;</span><span class="p">:</span> <span class="s1">&#39;Купить продукты&#39;</span><span class="p">,</span> <span class="s1">&#39;priority&#39;</span><span class="p">:</span> <span class="s1">&#39;высокий&#39;</span><span class="p">,</span> <span class="s1">&#39;completed&#39;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span> <span class="s1">&#39;category&#39;</span><span class="p">:</span> <span class="s1">&#39;быт&#39;</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_task(title,</span> <span class="pre">priority,</span> <span class="pre">category)</span></code> — добавляет задачу (по умолчанию <code class="docutils literal notranslate"><span class="pre">completed=False</span></code>).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">complete_task(title)</span></code> — отмечает задачу как выполненную.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">urgent_tasks()</span></code> — возвращает список задач с приоритетом «высокий».</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">clear_completed()</span></code> — удаляет все выполненные задачи.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-16">
+<span id="id17"></span><h2>Задание 15. Каталог музыки<a class="headerlink" href="#hw3-16" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">music_catalog</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;artist&#39;</span><span class="p">:</span> <span class="s1">&#39;Queen&#39;</span><span class="p">,</span> <span class="s1">&#39;title&#39;</span><span class="p">:</span> <span class="s1">&#39;Bohemian Rhapsody&#39;</span><span class="p">,</span> <span class="s1">&#39;genre&#39;</span><span class="p">:</span> <span class="s1">&#39;rock&#39;</span><span class="p">,</span> <span class="s1">&#39;duration&#39;</span><span class="p">:</span> <span class="mi">355</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_track(artist,</span> <span class="pre">title,</span> <span class="pre">genre,</span> <span class="pre">duration)</span></code> — добавляет трек в каталог.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">change_genre(artist,</span> <span class="pre">title,</span> <span class="pre">new_genre)</span></code> — меняет жанр трека.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">longest_tracks(n)</span></code> — возвращает топ‑<code class="docutils literal notranslate"><span class="pre">n</span></code> самых длинных треков.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">remove_artist_tracks(artist)</span></code> — удаляет все треки указанного исполнителя.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-17">
+<span id="id18"></span><h2>Задание 16. Журнал тренировок<a class="headerlink" href="#hw3-17" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">workout_journal</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;date&#39;</span><span class="p">:</span> <span class="s1">&#39;2023-10-01&#39;</span><span class="p">,</span> <span class="s1">&#39;exercise&#39;</span><span class="p">:</span> <span class="s1">&#39;приседания&#39;</span><span class="p">,</span> <span class="s1">&#39;reps&#39;</span><span class="p">:</span> <span class="mi">20</span><span class="p">,</span> <span class="s1">&#39;sets&#39;</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;weight&#39;</span><span class="p">:</span> <span class="mi">50</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">log_workout(date,</span> <span class="pre">exercise,</span> <span class="pre">reps,</span> <span class="pre">sets,</span> <span class="pre">weight)</span></code> — записывает тренировку.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">total_reps_by_exercise(exercise)</span></code> — считает суммарное количество повторений для упражнения.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">best_weight_by_exercise(exercise)</span></code> — возвращает максимальный вес, использованный для упражнения.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">delete_workout_by_date(date)</span></code> — удаляет все записи за указанную дату.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-18">
+<span id="id19"></span><h2>Задание 17. Учёт подписок<a class="headerlink" href="#hw3-18" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">subscriptions</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;service&#39;</span><span class="p">:</span> <span class="s1">&#39;Netflix&#39;</span><span class="p">,</span> <span class="s1">&#39;cost&#39;</span><span class="p">:</span> <span class="mi">799</span><span class="p">,</span> <span class="s1">&#39;renewal_date&#39;</span><span class="p">:</span> <span class="s1">&#39;2023-11-01&#39;</span><span class="p">,</span> <span class="s1">&#39;active&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_subscription(service,</span> <span class="pre">cost,</span> <span class="pre">renewal_date)</span></code> — добавляет подписку (по умолчанию <code class="docutils literal notranslate"><span class="pre">active=True</span></code>).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">renew_subscription(service)</span></code> — обновляет дату продления подписки на следующий месяц.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">monthly_cost()</span></code> — рассчитывает общую стоимость активных подписок за месяц.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cancel_subscription(service)</span></code> — отменяет подписку (<code class="docutils literal notranslate"><span class="pre">active=False</span></code>).</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-19">
+<span id="id20"></span><h2>Задание 18. Список мест для посещения<a class="headerlink" href="#hw3-19" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">places_to_visit</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Эйфелева башня&#39;</span><span class="p">,</span> <span class="s1">&#39;city&#39;</span><span class="p">:</span> <span class="s1">&#39;Париж&#39;</span><span class="p">,</span> <span class="s1">&#39;country&#39;</span><span class="p">:</span> <span class="s1">&#39;Франция&#39;</span><span class="p">,</span> <span class="s1">&#39;visited&#39;</span><span class="p">:</span> <span class="kc">False</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_place(name,</span> <span class="pre">city,</span> <span class="pre">country)</span></code> — добавляет место (по умолчанию <code class="docutils literal notranslate"><span class="pre">visited=False</span></code>).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mark_visited(name)</span></code> — отмечает место как посещённое.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">places_by_country(country)</span></code> — возвращает список мест в указанной стране.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">remove_place(name)</span></code> — удаляет место по названию.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-20">
+<span id="id21"></span><h2>Задание 19. Учёт расходов на транспорт<a class="headerlink" href="#hw3-20" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">transport_expenses</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;автобус&#39;</span><span class="p">,</span> <span class="s1">&#39;cost&#39;</span><span class="p">:</span> <span class="mi">60</span><span class="p">,</span> <span class="s1">&#39;date&#39;</span><span class="p">:</span> <span class="s1">&#39;2023-10-01&#39;</span><span class="p">,</span> <span class="s1">&#39;passenger_count&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_transport_expense(type,</span> <span class="pre">cost,</span> <span class="pre">passenger_count)</span></code> — добавляет расход на транспорт.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">total_by_type(type)</span></code> — считает общие расходы по типу транспорта.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">most_expensive_trip()</span></code> — возвращает самую дорогую поездку.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">delete_expenses_by_date(date)</span></code> — удаляет расходы за указанную дату.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-21">
+<span id="id22"></span><h2>Задание 20. Список целей на год<a class="headerlink" href="#hw3-21" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">goals</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Выучить Python&#39;</span><span class="p">,</span> <span class="s1">&#39;target&#39;</span><span class="p">:</span> <span class="s1">&#39;свободно программировать&#39;</span><span class="p">,</span> <span class="s1">&#39;progress&#39;</span><span class="p">:</span> <span class="mi">30</span><span class="p">,</span> <span class="s1">&#39;deadline&#39;</span><span class="p">:</span> <span class="s1">&#39;2024-12-31&#39;</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_goal(name,</span> <span class="pre">target,</span> <span class="pre">deadline)</span></code> — добавляет цель (по умолчанию <code class="docutils literal notranslate"><span class="pre">progress=0</span></code>).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">update_progress(name,</span> <span class="pre">new_progress)</span></code> — обновляет прогресс цели.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">achieved_goals()</span></code> — возвращает список целей с прогрессом 100 %.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">delete_overdue_goals()</span></code> — удаляет цели, срок которых истёк, а прогресс &lt; 100 %.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-22">
+<span id="id23"></span><h2>Задание 21. Каталог фильмов<a class="headerlink" href="#hw3-22" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">movie_catalog</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;title&#39;</span><span class="p">:</span> <span class="s1">&#39;Интерстеллар&#39;</span><span class="p">,</span> <span class="s1">&#39;director&#39;</span><span class="p">:</span> <span class="s1">&#39;Кристофер Нолан&#39;</span><span class="p">,</span> <span class="s1">&#39;year&#39;</span><span class="p">:</span> <span class="mi">2014</span><span class="p">,</span> <span class="s1">&#39;rating&#39;</span><span class="p">:</span> <span class="mf">8.6</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_movie(title,</span> <span class="pre">director,</span> <span class="pre">year,</span> <span class="pre">rating)</span></code> — добавляет фильм в каталог.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">update_rating(title,</span> <span class="pre">new_rating)</span></code> — меняет рейтинг фильма.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">top_rated_movies(n)</span></code> — возвращает топ‑<code class="docutils literal notranslate"><span class="pre">n</span></code> фильмов с наивысшим рейтингом.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">remove_movie_by_year(year)</span></code> — удаляет фильмы заданного года выпуска.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-23">
+<span id="id24"></span><h2>Задание 22. Учёт домашних животных<a class="headerlink" href="#hw3-23" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">pets</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Барсик&#39;</span><span class="p">,</span> <span class="s1">&#39;species&#39;</span><span class="p">:</span> <span class="s1">&#39;кошка&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;owner&#39;</span><span class="p">:</span> <span class="s1">&#39;Анна Иванова&#39;</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_pet(name,</span> <span class="pre">species,</span> <span class="pre">age,</span> <span class="pre">owner)</span></code> — добавляет нового питомца в список.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">update_age(name,</span> <span class="pre">new_age)</span></code> — обновляет возраст питомца.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">pets_by_owner(owner)</span></code> — возвращает список питомцев указанного владельца.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">remove_pet(name)</span></code> — удаляет питомца из списка по имени.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-24">
+<span id="id25"></span><h2>Задание 23. Каталог растений<a class="headerlink" href="#hw3-24" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">plants</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Фиалка&#39;</span><span class="p">,</span> <span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;цветущее&#39;</span><span class="p">,</span> <span class="s1">&#39;watering_freq&#39;</span><span class="p">:</span> <span class="mi">7</span><span class="p">,</span> <span class="s1">&#39;sunlight&#39;</span><span class="p">:</span> <span class="s1">&#39;рассеянный&#39;</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_plant(name,</span> <span class="pre">type,</span> <span class="pre">watering_freq,</span> <span class="pre">sunlight)</span></code> — добавляет растение в каталог.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">change_watering_freq(name,</span> <span class="pre">new_freq)</span></code> — меняет частоту полива для растения.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">shade_loving_plants()</span></code> — возвращает список растений, предпочитающих тень/рассеянный свет.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">remove_plant(name)</span></code> — удаляет растение по названию.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-25">
+<span id="id26"></span><h2>Задание 24. Учёт оборудования в лаборатории<a class="headerlink" href="#hw3-25" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">equipment</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Микроскоп&#39;</span><span class="p">,</span> <span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;оптический&#39;</span><span class="p">,</span> <span class="s1">&#39;status&#39;</span><span class="p">:</span> <span class="s1">&#39;исправен&#39;</span><span class="p">,</span> <span class="s1">&#39;last_calibration&#39;</span><span class="p">:</span> <span class="s1">&#39;2023-09-01&#39;</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_equipment(name,</span> <span class="pre">type,</span> <span class="pre">status,</span> <span class="pre">last_calibration)</span></code> — добавляет оборудование в список.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mark_maintenance(name)</span></code> — меняет статус на «в обслуживании».</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">overdue_calibrations()</span></code> — возвращает список оборудования, требующего калибровки (если прошло &gt; 365 дней).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">retire_equipment(name)</span></code> — удаляет оборудование из списка.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-26">
+<span id="id27"></span><h2>Задание 25. Список контактов<a class="headerlink" href="#hw3-26" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">contacts</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Мария Сидорова&#39;</span><span class="p">,</span> <span class="s1">&#39;phone&#39;</span><span class="p">:</span> <span class="s1">&#39;+79161234567&#39;</span><span class="p">,</span> <span class="s1">&#39;email&#39;</span><span class="p">:</span> <span class="s1">&#39;maria@mail.ru&#39;</span><span class="p">,</span> <span class="s1">&#39;category&#39;</span><span class="p">:</span> <span class="s1">&#39;работа&#39;</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_contact(name,</span> <span class="pre">phone,</span> <span class="pre">email,</span> <span class="pre">category)</span></code> — добавляет новый контакт.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">update_phone(name,</span> <span class="pre">new_phone)</span></code> — обновляет номер телефона контакта.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">contacts_by_category(category)</span></code> — возвращает контакты заданной категории.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">delete_contact(name)</span></code> — удаляет контакт по имени.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-27">
+<span id="id28"></span><h2>Задание 26. Журнал успеваемости студентов<a class="headerlink" href="#hw3-27" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">grades_journal</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;student&#39;</span><span class="p">:</span> <span class="s1">&#39;Иван Петров&#39;</span><span class="p">,</span> <span class="s1">&#39;subject&#39;</span><span class="p">:</span> <span class="s1">&#39;Физика&#39;</span><span class="p">,</span> <span class="s1">&#39;grade&#39;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> <span class="s1">&#39;date&#39;</span><span class="p">:</span> <span class="s1">&#39;2023-10-05&#39;</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_grade(student,</span> <span class="pre">subject,</span> <span class="pre">grade,</span> <span class="pre">date)</span></code> — добавляет оценку в журнал.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">avg_grade_by_student(student)</span></code> — рассчитывает средний балл студента.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">failing_students(subject,</span> <span class="pre">threshold)</span></code> — возвращает студентов с оценками ниже порога по предмету.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">clear_old_grades(days)</span></code> — удаляет оценки старше указанного количества дней.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-28">
+<span id="id29"></span><h2>Задание 27. Каталог книг в библиотеке<a class="headerlink" href="#hw3-28" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">library_catalog</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;title&#39;</span><span class="p">:</span> <span class="s1">&#39;Война и мир&#39;</span><span class="p">,</span> <span class="s1">&#39;author&#39;</span><span class="p">:</span> <span class="s1">&#39;Л.Н. Толстой&#39;</span><span class="p">,</span> <span class="s1">&#39;year&#39;</span><span class="p">:</span> <span class="mi">1869</span><span class="p">,</span> <span class="s1">&#39;available&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_book(title,</span> <span class="pre">author,</span> <span class="pre">year)</span></code> — добавляет книгу (по умолчанию <code class="docutils literal notranslate"><span class="pre">available=True</span></code>).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">borrow_book(title)</span></code> — меняет статус <code class="docutils literal notranslate"><span class="pre">available</span></code> на <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">books_by_author(author)</span></code> — возвращает книги указанного автора.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">remove_lost_books()</span></code> — удаляет книги со статусом <code class="docutils literal notranslate"><span class="pre">available=False</span></code> более 365 дней.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-29">
+<span id="id30"></span><h2>Задание 28. Учёт заказов в кафе<a class="headerlink" href="#hw3-29" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">orders</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;table&#39;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> <span class="s1">&#39;items&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;кофе&#39;</span><span class="p">,</span> <span class="s1">&#39;круассан&#39;</span><span class="p">],</span> <span class="s1">&#39;total&#39;</span><span class="p">:</span> <span class="mi">450</span><span class="p">,</span> <span class="s1">&#39;status&#39;</span><span class="p">:</span> <span class="s1">&#39;в работе&#39;</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_order(table,</span> <span class="pre">items,</span> <span class="pre">total)</span></code> — добавляет заказ (по умолчанию <code class="docutils literal notranslate"><span class="pre">status='в</span> <span class="pre">работе'</span></code>).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">complete_order(table)</span></code> — меняет статус заказа на «выполнен».</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">revenue_today()</span></code> — считает общую выручку за день (можно добавить поле <code class="docutils literal notranslate"><span class="pre">date</span></code>).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cancel_order(table)</span></code> — отменяет заказ и удаляет его из списка.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-30">
+<span id="id31"></span><h2>Задание 29. Список задач для волонтёров<a class="headerlink" href="#hw3-30" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">volunteer_tasks</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;task&#39;</span><span class="p">:</span> <span class="s1">&#39;Раздача еды&#39;</span><span class="p">,</span> <span class="s1">&#39;volunteer&#39;</span><span class="p">:</span> <span class="s1">&#39;Алексей&#39;</span><span class="p">,</span> <span class="s1">&#39;date&#39;</span><span class="p">:</span> <span class="s1">&#39;2023-10-15&#39;</span><span class="p">,</span> <span class="s1">&#39;completed&#39;</span><span class="p">:</span> <span class="kc">False</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">assign_task(task,</span> <span class="pre">volunteer,</span> <span class="pre">date)</span></code> — назначает задачу волонтёру (по умолчанию <code class="docutils literal notranslate"><span class="pre">completed=False</span></code>).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mark_completed(task)</span></code> — отмечает задачу как выполненную.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">tasks_by_volunteer(volunteer)</span></code> — возвращает задачи указанного волонтёра.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">remove_expired_tasks(date)</span></code> — удаляет задачи с датой раньше указанной.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-31">
+<span id="id32"></span><h2>Задание 30. Каталог фильмов для стриминга<a class="headerlink" href="#hw3-31" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">streaming_catalog</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;title&#39;</span><span class="p">:</span> <span class="s1">&#39;Интерстеллар&#39;</span><span class="p">,</span> <span class="s1">&#39;genre&#39;</span><span class="p">:</span> <span class="s1">&#39;фантастика&#39;</span><span class="p">,</span> <span class="s1">&#39;duration&#39;</span><span class="p">:</span> <span class="mi">169</span><span class="p">,</span> <span class="s1">&#39;watched&#39;</span><span class="p">:</span> <span class="mi">1250</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_movie_to_catalog(title,</span> <span class="pre">genre,</span> <span class="pre">duration)</span></code> — добавляет фильм (по умолчанию <code class="docutils literal notranslate"><span class="pre">watched=0</span></code>).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">increment_watches(title)</span></code> — увеличивает счётчик просмотров на 1.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">most_watched_movies(n)</span></code> — возвращает топ‑<code class="docutils literal notranslate"><span class="pre">n</span></code> самых просматриваемых фильмов.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">remove_movie(title)</span></code> — удаляет фильм из каталога.</p></li>
+</ol>
+<hr class="docutils" />
+</section>
+<section id="hw3-32">
+<span id="id33"></span><h2>Задание 31. Учёт инвентаря спортивного зала<a class="headerlink" href="#hw3-32" title="Link to this heading">#</a></h2>
+<p><strong>Структура данных:</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">gym_inventory</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span><span class="s1">&#39;item&#39;</span><span class="p">:</span> <span class="s1">&#39;гантели&#39;</span><span class="p">,</span> <span class="s1">&#39;quantity&#39;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="s1">&#39;condition&#39;</span><span class="p">:</span> <span class="s1">&#39;хорошее&#39;</span><span class="p">,</span> <span class="s1">&#39;location&#39;</span><span class="p">:</span> <span class="s1">&#39;зал №1&#39;</span><span class="p">},</span>
+    <span class="c1"># ...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Функции:</strong></p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">add_item(item,</span> <span class="pre">quantity,</span> <span class="pre">condition,</span> <span class="pre">location)</span></code> — добавляет инвентарь в список.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">update_quantity(item,</span> <span class="pre">new_quantity)</span></code> — обновляет количество предметов.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">low_stock_items(threshold)</span></code> — возвращает инвентарь с количеством ниже порога.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">dispose_item(item)</span></code> — удаляет предмет из инвентаря.</p></li>
+</ol>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./lectures\4"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="table_hw.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Таблица с заданиями</p>
+      </div>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-3">Задание 0. Система учёта оценок студентов</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-1">Задание 1. Учёт книг в домашней библиотеке</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-2">Задание 2. Планирование бюджета на месяц</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-4">Задание 3. Трекер привычек</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-5">Задание 4. Список фильмов для просмотра</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-6">Задание 5. Планирование тренировок</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-7">Задание 6. Учёт расходов в поездке</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-8">Задание 7. Дневник питания</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-9">Задание 8. Учёт задач проекта</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-10">Задание 9. Каталог книг в библиотеке</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-11">Задание 10. Учёт сотрудников компании</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-12">Задание 11. Каталог автомобилей</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-13">Задание 12. Журнал погоды</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-14">Задание 13. Список рецептов</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-15">Задание 14. Учёт задач на день</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-16">Задание 15. Каталог музыки</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-17">Задание 16. Журнал тренировок</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-18">Задание 17. Учёт подписок</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-19">Задание 18. Список мест для посещения</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-20">Задание 19. Учёт расходов на транспорт</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-21">Задание 20. Список целей на год</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-22">Задание 21. Каталог фильмов</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-23">Задание 22. Учёт домашних животных</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-24">Задание 23. Каталог растений</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-25">Задание 24. Учёт оборудования в лаборатории</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-26">Задание 25. Список контактов</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-27">Задание 26. Журнал успеваемости студентов</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-28">Задание 27. Каталог книг в библиотеке</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-29">Задание 28. Учёт заказов в кафе</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-30">Задание 29. Список задач для волонтёров</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-31">Задание 30. Каталог фильмов для стриминга</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hw3-32">Задание 31. Учёт инвентаря спортивного зала</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Shishkin Artem
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
