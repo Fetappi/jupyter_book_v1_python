@@ -1,0 +1,825 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Допольнительрые вопросы &#8212; Практикум по компьютерным технологиям</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=9c3e77be" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css?v=8cd3d715" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="../../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js?v=1ae7504c"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'lectures/4/questions';</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="icon" href="../../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Вопросы на 10 минут" href="../9/exam.html" />
+    <link rel="prev" title="Домашняя работа 3" href="hw.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="../main/index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/logo.png" class="logo__image only-light" alt="Практикум по компьютерным технологиям - Home"/>
+    <script>document.write(`<img src="../../_static/logo.png" class="logo__image only-dark" alt="Практикум по компьютерным технологиям - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../main/index.html">
+                    Язык программирования Python
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Домашняя работа 2</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../2/HW.html">Домашнее задание №2</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Лекция 4</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="table_hw.html">Таблица с заданиями</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hw.html">Домашняя работа 3</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Допольнительрые вопросы</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Лекция 9</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../9/exam.html">Вопросы на 10 минут</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../9/bileti.html">Пример билетов для экзамена</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Лекция 10</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../10/hw10.html">Домашнее задание numpy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../10/tasks.html">Задачи</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../10/fig.html">Задание 3 Фигуры</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/Fetappi/CPP_lectures" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/Fetappi/CPP_lectures/edit/main/lectures/4/questions.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/Fetappi/CPP_lectures/issues/new?title=Issue%20on%20page%20%2Flectures/4/questions.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/lectures/4/questions.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Допольнительрые вопросы</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Задание 1. Учёт книг в домашней библиотеке</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Задание 2. Планирование бюджета на месяц</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Задание 3. Система учёта оценок студентов</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Задание 4. Трекер привычек</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Задание 5. Список фильмов для просмотра</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Задание 6. Планирование тренировок</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Задание 7. Учёт расходов в поездке</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Задание 8. Дневник питания</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Задание 9. Учёт задач проекта</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Задание 10. Каталог книг в библиотеке</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">Задание 11. Учёт сотрудников компании</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">Задание 12. Каталог автомобилей</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">Задание 13. Журнал погоды</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">Задание 14. Список рецептов</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">Задание 15. Учёт задач на день</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">Задание 16. Каталог музыки</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">Задание 17. Журнал тренировок</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">Задание 18. Учёт подписок</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">Задание 19. Список мест для посещения</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id21">Задание 20. Учёт расходов на транспорт</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id22">Задание 21. Список целей на год</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id23">Задание 22. Каталог фильмов</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id24">Задание 23. Учёт домашних животных</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id25">Задание 24. Каталог растений</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id26">Задание 25. Учёт оборудования в лаборатории</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id27">Задание 26. Список контактов</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id28">Задание 27. Журнал успеваемости студентов</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id29">Задание 28. Каталог книг в библиотеке (расширенный)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id30">Задание 29. Учёт заказов в кафе</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id31">Задание 30. Список задач для волонтёров</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id32">Задание 31. Каталог фильмов для стриминга</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>Допольнительрые вопросы<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
+<section id="id2">
+<h2>Задание 1. Учёт книг в домашней библиотеке<a class="headerlink" href="#id2" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_book()</span></code>, добавив необязательный параметр <code class="docutils literal notranslate"><span class="pre">genre=None</span></code>. В словарь книги добавить поле <code class="docutils literal notranslate"><span class="pre">genre</span></code>.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">get_books_from_year(year)</span></code>, возвращающую список книг заданного года издания.</p></li>
+</ol>
+</section>
+<section id="id3">
+<h2>Задание 2. Планирование бюджета на месяц<a class="headerlink" href="#id3" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_expense()</span></code>, добавив необязательный параметр <code class="docutils literal notranslate"><span class="pre">description=''</span></code> (описание расхода). Добавить поле в словарь расхода.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">expenses_by_month(year,</span> <span class="pre">month)</span></code>, возвращающую сумму расходов за указанный месяц (формат даты: <code class="docutils literal notranslate"><span class="pre">'YYYY-MM-DD'</span></code>).</p></li>
+</ol>
+</section>
+<section id="id4">
+<h2>Задание 3. Система учёта оценок студентов<a class="headerlink" href="#id4" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_grade()</span></code>, добавив необязательный параметр <code class="docutils literal notranslate"><span class="pre">subject='Общий'</span></code> (предмет). Добавить поле <code class="docutils literal notranslate"><span class="pre">subject</span></code> в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">avg_grade_by_subject(subject)</span></code>, возвращающую средний балл по указанному предмету.</p></li>
+</ol>
+</section>
+<section id="id5">
+<h2>Задание 4. Трекер привычек<a class="headerlink" href="#id5" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_habit()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">target_days_per_week=5</span></code> (цель — сколько дней в неделю выполнять). Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">habits_below_target()</span></code>, возвращающую привычки, выполненные меньше целевого количества дней за последнюю неделю.</p></li>
+</ol>
+</section>
+<section id="id6">
+<h2>Задание 5. Список фильмов для просмотра<a class="headerlink" href="#id6" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_movie()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">director=None</span></code>. Добавить поле <code class="docutils literal notranslate"><span class="pre">director</span></code> в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">movies_by_director(director)</span></code>, возвращающую список фильмов указанного режиссёра.</p></li>
+</ol>
+</section>
+<section id="id7">
+<h2>Задание 6. Планирование тренировок<a class="headerlink" href="#id7" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">log_workout()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">notes=''</span></code> (примечания к тренировке). Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">workouts_by_intensity(intensity)</span></code>, возвращающую тренировки заданной интенсивности (<code class="docutils literal notranslate"><span class="pre">'низкая'</span></code>, <code class="docutils literal notranslate"><span class="pre">'средняя'</span></code>, <code class="docutils literal notranslate"><span class="pre">'высокая'</span></code>).</p></li>
+</ol>
+</section>
+<section id="id8">
+<h2>Задание 7. Учёт расходов в поездке<a class="headerlink" href="#id8" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_trip_expense()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">currency='RUB'</span></code>. Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">convert_to_currency(target_currency,</span> <span class="pre">rates)</span></code>, конвертирующую все расходы в указанную валюту (по словарю курсов <code class="docutils literal notranslate"><span class="pre">rates</span></code>).</p></li>
+</ol>
+</section>
+<section id="id9">
+<h2>Задание 8. Дневник питания<a class="headerlink" href="#id9" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_food()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">protein=0</span></code> (белки в г на 100 г). Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">daily_protein(date)</span></code>, возвращающую общее количество белков за день.</p></li>
+</ol>
+</section>
+<section id="id10">
+<h2>Задание 9. Учёт задач проекта<a class="headerlink" href="#id10" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_task()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">assigned_to=None</span></code> (исполнитель). Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">tasks_by_assignee(assignee)</span></code>, возвращающую задачи, назначенные указанному исполнителю.</p></li>
+</ol>
+</section>
+<section id="id11">
+<h2>Задание 10. Каталог книг в библиотеке<a class="headerlink" href="#id11" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_book_to_library()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">isbn=None</span></code>. Добавить поле <code class="docutils literal notranslate"><span class="pre">isbn</span></code> в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">find_by_isbn(isbn)</span></code>, возвращающую книгу по ISBN или <code class="docutils literal notranslate"><span class="pre">None</span></code>, если не найдена.</p></li>
+</ol>
+</section>
+<section id="id12">
+<h2>Задание 11. Учёт сотрудников компании<a class="headerlink" href="#id12" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_employee()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">email=None</span></code>. Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">employees_by_email_domain(domain)</span></code>, возвращающую сотрудников с почтой на указанном домене (например, <code class="docutils literal notranslate"><span class="pre">'company.com'</span></code>).</p></li>
+</ol>
+</section>
+<section id="id13">
+<h2>Задание 12. Каталог автомобилей<a class="headerlink" href="#id13" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_car()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">fuel_type='бензин'</span></code>. Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">cars_by_fuel_type(fuel_type)</span></code>, возвращающую автомобили заданного типа топлива.</p></li>
+</ol>
+</section>
+<section id="id14">
+<h2>Задание 13. Журнал погоды<a class="headerlink" href="#id14" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">record_weather()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">humidity=0</span></code> (влажность %). Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">high_humidity_days(threshold)</span></code>, возвращающую даты с влажностью выше порога.</p></li>
+</ol>
+</section>
+<section id="id15">
+<h2>Задание 14. Список рецептов<a class="headerlink" href="#id15" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_recipe()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">calories=0</span></code> (калорийность блюда). Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">low_calorie_recipes(max_calories)</span></code>, возвращающую рецепты с калорийностью не выше указанного значения.</p></li>
+</ol>
+</section>
+<section id="id16">
+<h2>Задание 15. Учёт задач на день<a class="headerlink" href="#id16" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_task()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">due_date=None</span></code> (дата выполнения). Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">overdue_tasks()</span></code>, возвращающую задачи с просроченной датой выполнения (если <code class="docutils literal notranslate"><span class="pre">due_date</span></code> задана и прошла).</p></li>
+</ol>
+</section>
+<section id="id17">
+<h2>Задание 16. Каталог музыки<a class="headerlink" href="#id17" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_track()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">album=None</span></code>. Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">tracks_by_album(album)</span></code>, возвращающую треки из указанного альбома.</p></li>
+</ol>
+</section>
+<section id="id18">
+<h2>Задание 17. Журнал тренировок<a class="headerlink" href="#id18" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">log_workout()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">heart_rate=0</span></code> (пульс во время тренировки). Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">avg_heart_rate_by_exercise(exercise)</span></code>, возвращающую средний пульс для указанного упражнения.</p></li>
+</ol>
+</section>
+<section id="id19">
+<h2>Задание 18. Учёт подписок<a class="headerlink" href="#id19" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_subscription()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">payment_method='карта'</span></code>. Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">subscriptions_by_method(method)</span></code>, возвращающую подписки с указанным способом оплаты.</p></li>
+</ol>
+</section>
+<section id="id20">
+<h2>Задание 19. Список мест для посещения<a class="headerlink" href="#id20" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_place()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">cost=0</span></code> (примерная стоимость посещения). Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">budget_places(max_cost)</span></code>, возвращающую места с ценой не выше указанной.</p></li>
+</ol>
+</section>
+<section id="id21">
+<h2>Задание 20. Учёт расходов на транспорт<a class="headerlink" href="#id21" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_transport_expense()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">distance=0</span></code> (пройденное расстояние в км). Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">cost_per_km()</span></code>, возвращающую среднюю стоимость километра пути по всем записям.</p></li>
+</ol>
+</section>
+<section id="id22">
+<h2>Задание 21. Список целей на год<a class="headerlink" href="#id22" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_goal()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">category='личная'</span></code>. Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">goals_by_category(category)</span></code>, возвращающую цели указанной категории.</p></li>
+</ol>
+</section>
+<section id="id23">
+<h2>Задание 22. Каталог фильмов<a class="headerlink" href="#id23" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_movie()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">actors=[]</span></code> (список актёров). Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">movies_with_actor(actor)</span></code>, возвращающую фильмы с участием указанного актёра.</p></li>
+</ol>
+</section>
+<section id="id24">
+<h2>Задание 23. Учёт домашних животных<a class="headerlink" href="#id24" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_pet()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">breed=None</span></code> (порода). Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">pets_by_breed(breed)</span></code>, возвращающую питомцев указанной породы.</p></li>
+</ol>
+</section>
+<section id="id25">
+<h2>Задание 24. Каталог растений<a class="headerlink" href="#id25" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_plant()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">toxicity='нетоксичное'</span></code>. Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">toxic_plants()</span></code>, возвращающую растения с пометкой <code class="docutils literal notranslate"><span class="pre">'токсичное'</span></code>.</p></li>
+</ol>
+</section>
+<section id="id26">
+<h2>Задание 25. Учёт оборудования в лаборатории<a class="headerlink" href="#id26" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_equipment()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">purchase_date=None</span></code>. Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">equipment_age()</span></code>, возвращающую словарь <code class="docutils literal notranslate"><span class="pre">{название:</span> <span class="pre">количество</span> <span class="pre">лет}</span></code> для всего оборудования.</p></li>
+</ol>
+</section>
+<section id="id27">
+<h2>Задание 26. Список контактов<a class="headerlink" href="#id27" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_contact()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">birthday=None</span></code> (дата рождения). Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">upcoming_birthdays(days)</span></code>, возвращающую контакты с днями рождения в ближайшие N дней.</p></li>
+</ol>
+</section>
+<section id="id28">
+<h2>Задание 27. Журнал успеваемости студентов<a class="headerlink" href="#id28" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_grade()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">weight=1</span></code> (вес оценки: контрольная — 2, домашняя работа — 1 и т. д.). Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">weighted_avg_grade(student)</span></code>, возвращающую средневзвешенный балл студента.</p></li>
+</ol>
+</section>
+<section id="id29">
+<h2>Задание 28. Каталог книг в библиотеке (расширенный)<a class="headerlink" href="#id29" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_book()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">pages=0</span></code>. Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">long_books(min_pages)</span></code>, возвращающую книги с количеством страниц больше указанного.</p></li>
+</ol>
+</section>
+<section id="id30">
+<h2>Задание 29. Учёт заказов в кафе<a class="headerlink" href="#id30" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_order()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">waiter=None</span></code> (официант). Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">orders_by_waiter(waiter)</span></code>, возвращающую заказы указанного официанта.</p></li>
+</ol>
+</section>
+<section id="id31">
+<h2>Задание 30. Список задач для волонтёров<a class="headerlink" href="#id31" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">assign_task()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">location=None</span></code> (место выполнения). Добавить поле в словарь.</p></li>
+<li><p>Написать функцию <code class="docutils literal notranslate"><span class="pre">tasks_by_location(location)</span></code>, возвращающую задачи для указанного места.</p></li>
+</ol>
+</section>
+<section id="id32">
+<h2>Задание 31. Каталог фильмов для стриминга<a class="headerlink" href="#id32" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Изменить <code class="docutils literal notranslate"><span class="pre">add_movie_to_catalog()</span></code>, добавив параметр <code class="docutils literal notranslate"><span class="pre">language='русский'</span></code>. Добавить поле в словарь.</p></li>
+<li><p>Написать функцию `movies_by_language(language)</p></li>
+</ol>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./lectures\4"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="hw.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Домашняя работа 3</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../9/exam.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Вопросы на 10 минут</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Задание 1. Учёт книг в домашней библиотеке</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Задание 2. Планирование бюджета на месяц</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Задание 3. Система учёта оценок студентов</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Задание 4. Трекер привычек</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Задание 5. Список фильмов для просмотра</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Задание 6. Планирование тренировок</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Задание 7. Учёт расходов в поездке</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Задание 8. Дневник питания</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Задание 9. Учёт задач проекта</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Задание 10. Каталог книг в библиотеке</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">Задание 11. Учёт сотрудников компании</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">Задание 12. Каталог автомобилей</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">Задание 13. Журнал погоды</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">Задание 14. Список рецептов</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">Задание 15. Учёт задач на день</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">Задание 16. Каталог музыки</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">Задание 17. Журнал тренировок</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">Задание 18. Учёт подписок</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">Задание 19. Список мест для посещения</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id21">Задание 20. Учёт расходов на транспорт</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id22">Задание 21. Список целей на год</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id23">Задание 22. Каталог фильмов</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id24">Задание 23. Учёт домашних животных</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id25">Задание 24. Каталог растений</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id26">Задание 25. Учёт оборудования в лаборатории</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id27">Задание 26. Список контактов</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id28">Задание 27. Журнал успеваемости студентов</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id29">Задание 28. Каталог книг в библиотеке (расширенный)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id30">Задание 29. Учёт заказов в кафе</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id31">Задание 30. Список задач для волонтёров</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id32">Задание 31. Каталог фильмов для стриминга</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Shishkin Artem
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
