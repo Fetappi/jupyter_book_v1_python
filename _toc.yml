@@ -8,5 +8,15 @@ parts:
     chapters:
       - file: lectures/4/table_hw
       - file: lectures/4/hw
+      - file: lectures/4/questions
+  - caption: Лекция 9
+    chapters:
+      - file: lectures/9/exam
+      - file: lectures/9/bileti
 
-
+  - caption: Лекция 10
+    chapters:
+      - file: lectures/10/hw10
+      - file: lectures/10/tasks
+      - file: lectures/10/fig
+      
