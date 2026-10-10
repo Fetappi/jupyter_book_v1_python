@@ -6,15 +6,8 @@
 
 email: **<shishkin.ap17@physics.msu.ru>**
 
-## Учебная группа 114
+## Учебная группа 216
 
-Сводную таблицу можно найти по [ссылке](https://docs.google.com/spreadsheets/d/19mUmRRLtqtkMsIjSJWdNjtZicltJBx24DCqfe3daSAo/edit?gid=986152247#gid=986152247)
+Сводную таблицу можно найти по [ссылке](https://docs.google.com/spreadsheets/d/1In_jAPtw9IU2Wlk2DP7qrSnnWdRhwp5SRkfIMD5ip84/edit?gid=217516172#gid=217516172)
 
-
-
-
-<!-- 1. [Программа курса](https://cmp.phys.msu.su/study/programming/agenda-2)
-2. [Учебно-методическое пособие](https://cmp.phys.msu.su/study/programming/cpp-book)
-3. [Язык программирования С/С++: часто встречающиеся ошибки при написании программ](https://cmp.phys.msu.su/sites/default/files/Часто%20встречающиеся%20ошибки.pdf)
-4. [Теоретический минимум знаний по языку программирования Си++](https://cmp.phys.msu.su/study/programming/cpp-minimum)
-5. [Программы по курсы](https://drive.google.com/open?id=1sOb6fJA52r7vYHCDok9w_lCXTKmP1-ei&usp=drive_fs) -->
+Код лекций можно найти по [ссылке](https://drive.google.com/drive/folders/1Jqf2spqQinC5-VugNH0wZN7nnmVQjkIF?usp=drive_link)

@@ -50,7 +50,7 @@
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../../_static/togglebutton.js?v=1ae7504c"></script>
+    <script src="../../_static/togglebutton.js?v=b8b12719"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../../_static/design-tabs.js?v=f930bc37"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
@@ -455,12 +455,12 @@ document.write(`
                   
   <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">path</span> <span class="o">=</span> <span class="sa">r</span><span class="s1">&#39;C:\work\jupyter_book_v1_python\lectures\5\work_with_file_open.py&#39;</span>
-<span class="n">path_win</span> <span class="o">=</span> <span class="s1">&#39;C:</span><span class="se">\\</span><span class="s1">work</span><span class="se">\\</span><span class="s1">jupyter_book_v1_python</span><span class="se">\\</span><span class="s1">lectures</span><span class="se">\\</span><span class="s1">5</span><span class="se">\\</span><span class="s1">work_with_file_open.py&#39;</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">path</span> <span class="o">=</span> <span class="sa">r</span><span class="s1">'C:\work\jupyter_book_v1_python\lectures\5\work_with_file_open.py'</span>
+<span class="n">path_win</span> <span class="o">=</span> <span class="s1">'C:</span><span class="se">\\</span><span class="s1">work</span><span class="se">\\</span><span class="s1">jupyter_book_v1_python</span><span class="se">\\</span><span class="s1">lectures</span><span class="se">\\</span><span class="s1">5</span><span class="se">\\</span><span class="s1">work_with_file_open.py'</span>
 
-<span class="n">rel_path_win</span> <span class="o">=</span> <span class="s1">&#39;lectures</span><span class="se">\\</span><span class="s1">5</span><span class="se">\\</span><span class="s1">work_with_file_open.py&#39;</span>
-<span class="n">path_linux</span> <span class="o">=</span> <span class="s1">&#39;C:/work/jupyter_book_v1_python/lectures/5/work_with_file_open.py&#39;</span>
-<span class="n">rel_path_linux</span> <span class="o">=</span> <span class="s1">&#39;lectures/5/work_with_file_open.py&#39;</span>
+<span class="n">rel_path_win</span> <span class="o">=</span> <span class="s1">'lectures</span><span class="se">\\</span><span class="s1">5</span><span class="se">\\</span><span class="s1">work_with_file_open.py'</span>
+<span class="n">path_linux</span> <span class="o">=</span> <span class="s1">'C:/work/jupyter_book_v1_python/lectures/5/work_with_file_open.py'</span>
+<span class="n">rel_path_linux</span> <span class="o">=</span> <span class="s1">'lectures/5/work_with_file_open.py'</span>
 </pre></div>
 </div>
 </div>
@@ -480,13 +480,13 @@ document.write(`
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\&#39;</span><span class="s1">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">'</span><span class="se">\'</span><span class="s1">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
 <div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span>  <span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span> <span class="n">line</span> <span class="mi">1</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\&#39;</span><span class="s1">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">'</span><span class="se">\'</span><span class="s1">)</span>
           <span class="o">^</span>
 <span class="ne">SyntaxError</span>: unterminated string literal (detected at line 1); perhaps you escaped the end quote?
 </pre></div>
@@ -495,7 +495,7 @@ document.write(`
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\\</span><span class="s1">&#39;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">'</span><span class="se">\\</span><span class="s1">'</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -507,8 +507,8 @@ document.write(`
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># file = open(&quot;my_file.txt&quot;)</span>
-<span class="n">file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;my_file.txt&quot;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># file = open("my_file.txt")</span>
+<span class="n">file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">"my_file.txt"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span> <span class="n">file</span><span class="o">.</span><span class="n">readline</span><span class="p">()</span> <span class="p">)</span>
 <span class="n">file</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
 </pre></div>
@@ -518,8 +518,8 @@ document.write(`
 <div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
 <span class="ne">UnicodeDecodeError</span><span class="g g-Whitespace">                        </span>Traceback (most recent call last)
 <span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">line</span> <span class="mi">3</span>
-<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1"># file = open(&quot;my_file.txt&quot;)</span>
-<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;my_file.txt&quot;</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1"># file = open("my_file.txt")</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">"my_file.txt"</span><span class="p">)</span>
 <span class="ne">----&gt; </span><span class="mi">3</span> <span class="nb">print</span><span class="p">(</span> <span class="n">file</span><span class="o">.</span><span class="n">readline</span><span class="p">()</span> <span class="p">)</span>
 <span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="n">file</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
 
@@ -527,14 +527,14 @@ document.write(`
 <span class="g g-Whitespace">     </span><span class="mi">22</span> <span class="k">def</span><span class="w"> </span><span class="nf">decode</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">input</span><span class="p">,</span> <span class="n">final</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
 <span class="ne">---&gt; </span><span class="mi">23</span>     <span class="k">return</span> <span class="n">codecs</span><span class="o">.</span><span class="n">charmap_decode</span><span class="p">(</span><span class="nb">input</span><span class="p">,</span><span class="bp">self</span><span class="o">.</span><span class="n">errors</span><span class="p">,</span><span class="n">decoding_table</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
 
-<span class="ne">UnicodeDecodeError</span>: &#39;charmap&#39; codec can&#39;t decode byte 0x98 in position 14: character maps to &lt;undefined&gt;
+<span class="ne">UnicodeDecodeError</span>: 'charmap' codec can't decode byte 0x98 in position 14: character maps to &lt;undefined&gt;
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;my_file.txt&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span> <span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">"my_file.txt"</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"utf-8"</span> <span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span> <span class="p">)</span>
 <span class="n">file</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
 </pre></div>
@@ -552,7 +552,7 @@ document.write(`
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;my_file.txt&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span> <span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">"my_file.txt"</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"utf-8"</span> <span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span> <span class="p">)</span>
 </pre></div>
 </div>
